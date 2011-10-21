@@ -1,0 +1,14 @@
+/*
+ *  helloworld.nxcc
+ *  Hank
+ *
+ *  Created by Mark Crosbie on 20/12/2009.
+ *  Copyright 2009 Mark Crosbie. All rights reserved.
+ *
+ */
+
+
+task main() {
+     TextOut(0, LCD_LINE2, "Hello World!");
+     until(ButtonPressed(BTNCENTER, true));
+}
